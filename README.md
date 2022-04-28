@@ -14,17 +14,13 @@ python perspectiveTransform.py
 
 ## Usage
 
-**1.**  Take a look at files in the directory before executing the snippet.
+**1.** Refer to the sample invocation section and run the program.
 
-![beforeExecution](https://github.com/kushalchaudhari21/PerspectiveTransform/blob/master/demo/beforeExecution.gif)
-
-**2.** Refer to the sample invocation section and run the program.
-
-**3.** Next, a window pops up on the screen on which you can select 4 points in given sequence to select the region of interest(ROI).
+**2.** Next, a window pops up on the screen on which you can select 4 points in given sequence to select the region of interest(ROI).
 
 ![selectPoints](https://github.com/kushalchaudhari21/PerspectiveTransform/blob/master/demo/selectPoints.gif) 
 
-**4.** Perspective transform function is written as:
+**3.** Perspective transform function is written as:
 ```
 def get_persp(image,pts):
         ippts = np.float32(pts)
@@ -33,9 +29,7 @@ def get_persp(image,pts):
         return warped
 ```
 
-**5.** After the execution, the output image is added in same directory.
-
-![afterExecution](https://github.com/kushalchaudhari21/PerspectiveTransform/blob/master/demo/afterExecution.gif)
+**4.** After the execution, the output image is added in same directory.
 
 ## Important Insights
 
